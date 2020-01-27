@@ -1,9 +1,9 @@
 ## Инструкция по установке плагина Invoice для SetRetail10
 ### Сервер 
-1. Скачать [плагин](https://github.com/Invoice-LLC/Invoice.Modules.SetRetail10/releases/download/1.4/Invoice.Modules.SetRetail10.jar)
+1. Скачать [плагин](https://github.com/Invoice-LLC/Invoice.Modules.SetRetail10/releases/download/1.4/Invoice.Modules.SetRetail10-1.4.jar)
 2. Скопировать файл плагина на сервер
-  * **ОС Linux**: /var/lib/jboss/plugins/Invoice.Modules.SetRetail10-1.0.jar
-  * **ОС Windows**: …\SetRetail10\plugins\Invoice.Modules.SetRetail10-1.0.jar
+  * **ОС Linux**: /var/lib/jboss/plugins/Invoice.Modules.SetRetail10-1.4.jar
+  * **ОС Windows**: …\SetRetail10\plugins\Invoice.Modules.SetRetail10-1.4.jar
 *Если папка plugins отсутствует, тогда создайте её вручную. 
 Для топологии Centrum-Retail-касса плагин необходимо копировать на все узлы топологии - на Centrum, на все Ритейлы, и на все кассы*
 3. Настройте плагин
@@ -29,7 +29,14 @@
   ![Imgur](https://i.imgur.com/hJg5cFd.png)
   
 ### Касса 
-1. Скопируйте файл плагина на кассу:
-\storage\crystal-cash\plugins\Invoice.Modules.SetRetail10-1.0.jar
+1. Скопируйте плагин на кассу:
+\storage\crystal-cash\plugins\Invoice.Modules.SetRetail10-1.4.jar
 2. Перезагрузите кассовый модуль.
-3. Вернитесь обратно в личный кабинет Invoice(п8 из настройки сервера) для настройки нового терминала. Скачайте и распечатайте QR-код, нажав на иконку скачать. Далее необходимо прикрепить QR-код к кассе. По этому QR-коду клиенты будут производить оплату. Для каждой кассы будет создаваться свой, уникальный, терминал после первого запуска плагина на кассе.
+3. Зайдите в [личный кабинет Invoice](https://lk.invoice.su/) для настройки нового терминала. 
+  1. Настройте новый терминал в [настройках](https://lk.invoice.su/terminals)<br>
+  ![Imgur](https://i.imgur.com/9hjr6l5.png)
+  ![Imgur](https://i.imgur.com/9vCOqYJ.png)
+  2. Скачайте и распечатайте QR-код, нажав на иконку скачать. <br>
+  ![Imgur](https://i.imgur.com/1ZPntdG.png)
+*Дальше необходимо прикрепить QR-код к кассе. По этому QR-коду ваши клиенты будут производить оплату.*
+*Для каждой кассы будет создаваться свой, уникальный, терминал после первого запуска плагина на кассе.*
