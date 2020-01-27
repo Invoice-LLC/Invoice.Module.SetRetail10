@@ -1,25 +1,25 @@
 ## Инструкция по установке плагина Invoice для SetRetail10
 ### Сервер 
-1. Скачать [плагин](https://github.com/Invoice-LLC/Invoice.Modules.SetRetail10/releases/download/1.4/Invoice.Modules.SetRetail10-1.4.jar)
-2. Скопировать файл плагина на сервер
+1. Скачайте [плагин](https://github.com/Invoice-LLC/Invoice.Modules.SetRetail10/releases/download/1.4/Invoice.Modules.SetRetail10-1.4.jar)
+2. Скопируйте файл плагина на сервер
   * **ОС Linux**: /var/lib/jboss/plugins/Invoice.Modules.SetRetail10-1.4.jar
   * **ОС Windows**: …\SetRetail10\plugins\Invoice.Modules.SetRetail10-1.4.jar
 *Если папка plugins отсутствует, тогда создайте её вручную. 
 Для топологии Centrum-Retail-касса плагин необходимо копировать на все узлы топологии - на Centrum, на все Ритейлы, и на все кассы*
 3. Настройте плагин
-  1. Нажимаем Управление продажами на главной странице<br>
+  1. Нажмите Управление продажами на главной странице<br>
   ![Imgur](https://i.imgur.com/RDgOdLl.png)
-  2. Нажимаем Внешние системы<br>
+  2. Нажмите Внешние системы<br>
   ![Imgur](https://i.imgur.com/HcvWfJD.png)
-  3. Открываем вкладку Внешние процессинги<br>
+  3. Откройте вкладку Внешние процессинги<br>
   ![Imgur](https://i.imgur.com/1NJ9XUJ.png)
-  4. Жмем на Добавить оператора, кнопка снизу<br>
+  4. Нажмите на Добавить оператора, кнопка снизу<br>
   ![Imgur](https://i.imgur.com/d9ky6iW.png)
-  5. Выбираем Платежные системы -> Invoice. Жмем Зарегистрировать нового оператора<br>
+  5. Выберите Платежные системы -> Invoice. Нажмите Зарегистрировать нового оператора<br>
   ![Imgur](https://i.imgur.com/303art9.png)
-  6. Жмем двойным щелчком по строчке Invoice, для открытия настроек<br>
+  6. Нажмите двойным щелчком по строчке Invoice, для открытия настроек<br>
   ![Imgur](https://i.imgur.com/ZBdnqlT.png)
-  7. Введите Login(Номер телефона/Email для входа в личный кабинет) и API ключ(В настройках личного кабинета) 
+  7. Введите Login(Номер телефона/Email для входа в личный кабинет) и API-ключ (в настройках личного кабинета) 
     * Номер телефона вводить в формате 79991234567.
     * Будьте внимательны к регистру, не оставляйте лишних пробелов.<br>
     ![Imgur](https://i.imgur.com/UXLym6X.png)
