@@ -35,8 +35,8 @@
 3. Зайдите в [личный кабинет Invoice](https://lk.invoice.su/) для настройки нового терминала. 
   1. Настройте новый терминал в [настройках](https://lk.invoice.su/terminals)<br>
   ![Imgur](https://i.imgur.com/9hjr6l5.png)
-  ![Imgur](https://i.imgur.com/9vCOqYJ.png)
+  ![Imgur](https://i.imgur.com/9vCOqYJ.png) 
   2. Скачайте и распечатайте QR-код, нажав на иконку скачать. <br>
-  ![Imgur](https://i.imgur.com/1ZPntdG.png)
+  ![Imgur](https://i.imgur.com/1ZPntdG.png)<br>
 *Дальше необходимо прикрепить QR-код к кассе. По этому QR-коду ваши клиенты будут производить оплату.*
 *Для каждой кассы будет создаваться свой, уникальный, терминал после первого запуска плагина на кассе.*
