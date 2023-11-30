@@ -1,36 +1,25 @@
 ## Инструкция по установке плагина Invoice для SetRetail10
-### Сервер 
-1. Скачайте [плагин](https://github.com/Invoice-LLC/Invoice.Modules.SetRetail10/releases/download/1.4/Invoice.Modules.SetRetail10-1.4.jar)
+### Настройка на сервере 
+1. Скачайте [плагин](https://github.com/XoroTheWise/Invoice.Module.SetRetail10/releases/download/jar/Invoice.Modules.SetRetail10-1.5.jar)
 2. Скопируйте файл плагина на сервер
-  * **ОС Linux**: /var/lib/jboss/plugins/Invoice.Modules.SetRetail10-1.4.jar
-  * **ОС Windows**: …\SetRetail10\plugins\Invoice.Modules.SetRetail10-1.4.jar
+  * **ОС Linux**: /var/lib/jboss/plugins/Invoice.Modules.SetRetail10-1.5.jar
+  * **ОС Windows**: …\SetRetail10\plugins\Invoice.Modules.SetRetail10-1.5.jar
 *Если папка plugins отсутствует, тогда создайте её вручную. 
 Для топологии Centrum-Retail-касса плагин необходимо копировать на все узлы топологии - на Centrum, на все Ритейлы, и на все кассы*
 3. Настройте плагин
-  1. Нажмите Управление продажами на главной странице<br>
-  ![Imgur](https://i.imgur.com/RDgOdLl.png)
-  2. Нажмите Внешние системы<br>
-  ![Imgur](https://i.imgur.com/HcvWfJD.png)
-  3. Откройте вкладку Внешние процессинги<br>
-  ![Imgur](https://i.imgur.com/1NJ9XUJ.png)
-  4. Нажмите на Добавить оператора, кнопка снизу<br>
-  ![Imgur](https://i.imgur.com/d9ky6iW.png)
-  5. Выберите Платежные системы -> Invoice. Нажмите Зарегистрировать нового оператора<br>
-  ![Imgur](https://i.imgur.com/303art9.png)
-  6. Нажмите двойным щелчком по строчке Invoice, для открытия настроек<br>
-  ![Imgur](https://i.imgur.com/ZBdnqlT.png)
-  7. Введите Login(Номер телефона/Email для входа в личный кабинет) и API-ключ (в настройках личного кабинета) 
-    * Номер телефона вводить в формате 79991234567.
-    * Будьте внимательны к регистру, не оставляйте лишних пробелов.<br>
-    ![Imgur](https://i.imgur.com/UXLym6X.png)
-  8. Шаблоны касс-> Выберите ваш шаблон кассы, на которой будет доступна оплата через Invoice.<br>
-  ![Imgur](https://i.imgur.com/xG5sPIz.png)
-  9. Настройте, если требуется, тип оплаты для функциональных клавиш клавиатуры, привязав тип оплаты Invoice (QR).<br>
-  ![Imgur](https://i.imgur.com/hJg5cFd.png)
+  1. Нажмите Зайдите в Интеграции->Внешние процессинги<br>
+  ![image](https://github.com/XoroTheWise/Invoice.Module.SetRetail10/assets/91345275/76c81ee5-501b-4aa6-bb22-9dac177e3b41)
+  2. Нажмите на добавление процессинга<br>
+  ![image](https://github.com/XoroTheWise/Invoice.Module.SetRetail10/assets/91345275/1f154d62-dcb2-43eb-8ed8-61515feb495a)
+  3. Выберите Платёжные системы->Invoice и сохраните<br>
+  ![image](https://github.com/XoroTheWise/Invoice.Module.SetRetail10/assets/91345275/040ee902-b7f9-4a25-9112-f7337d5a41b4)
+  4. Настройте плагин. Введите Login (id компании) и api ключ (можно посмотреть в личном кабинете invoice)<br>
+  ![image](https://github.com/XoroTheWise/Invoice.Module.SetRetail10/assets/91345275/cb8002c1-4413-4b53-8765-8973374a8142)
+  5. Добавьте тип оплаты для ваших шаблонов касс. Кассовый модуль -> Шаблоны касс -> Редактировать -> Процесс торговли -> Типы оплаты. Добавьте тип оплаты Invoice (QR). Так же добавьте тип оплаты для юр.лиц и сохраните<br>
   
 ### Касса 
 1. Скопируйте плагин на кассу:
-\storage\crystal-cash\plugins\Invoice.Modules.SetRetail10-1.4.jar
+\storage\crystal-cash\plugins\Invoice.Modules.SetRetail10-1.5.jar
 2. Перезагрузите кассовый модуль.
 3. Зайдите в [личный кабинет Invoice](https://lk.invoice.su/) для настройки нового терминала. 
   1. Настройте новый терминал в [настройках](https://lk.invoice.su/terminals)<br>
